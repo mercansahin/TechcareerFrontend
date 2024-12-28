@@ -39,6 +39,174 @@
         <!-- Section Start Codes -->
         <section id="about_me">
 
+            <!-- Form + Table -->
+            <table border="1" width="50%">
+                <tr>
+                    <td><label for="username">Adınız:</label></td>
+                    <td>
+                        <input type="text" 
+                        id="username" title="Adınız" placeholder="Adınız ..."
+                        required autofocus>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td><label for="useremail">Emailiniz:</label></td>
+                    <td>
+                        <input type="email" 
+                        id="useremail" title="Emailiniz" placeholder="Emailiniz ..."
+                        required autofocus>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td><label for="userpassword">Şifreniz:</label></td>
+                    <td>
+                        <input type="password" id="userpassword" title="Şifreniz" placeholder="Şifreniz ..."
+                        required autofocus>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td></td>
+                    <td>
+                        <input type="reset" value="Temizle">
+                        <button type="submit">Gönder-2</button>
+                    </td>
+                </tr>
+            </table>
+
+            <br>
+            <hr><hr><hr><hr>
+            <!-- TABLE -->
+            <table border="1" width="50%">
+                <tr>
+                    <th>ID</th>
+                    <th>ADI</th>
+                    <th>EMAIL</th>
+                    <th>PASSWORD</th>
+                </tr>
+
+                <tr>
+                    <td>1</td>
+                    <td>Adı-1</td>
+                    <td>Mail-1</td>
+                    <td>Şifre-1</td>
+                </tr>
+
+                <tr>
+                    <td>1</td>
+                    <td>Adı-1</td>
+                    <td>Mail-1</td>
+                    <td>Şifre-1</td>
+                </tr>
+
+                <tr>
+                    <th colspan="4">&copy; Bütün Haklar Saklıdır</th>
+                </tr>
+            </table>
+
+            <br>
+            <hr><hr><hr><hr>
+            <!-- FORM -->
+            <form action="" method="get" autocomplete="on" target="_blank">
+                <label for="username">Adınız:</label>
+                <input type="text" 
+                id="username"  
+                title="Adınız" placeholder="Adınız ..."
+                required autofocus>
+
+                <br>
+
+                <label for="useremail">Emailiniz:</label>
+                <input type="email" 
+                id="useremail"  
+                title="Emailiniz" placeholder="Emailiniz ..."
+                required autofocus>
+
+                <br>
+
+                <label for="userpassword">Şifreniz:</label>
+                <input type="password" 
+                id="userpassword"  
+                title="Şifreniz" placeholder="Şifreniz ..."
+                required autofocus>
+
+                <br><br>
+
+                <input type="reset" value="Temizle">
+                <input type="submit" value="Gönder-1">
+                <button type="submit">Gönder-2</button>
+
+            </form>
+
+            <hr>
+            <br>
+            <!-- DataList -->
+             <input type="text" list="frontend" name="techcareer">
+
+             <datalist id="frontend">
+                <option value="frontend">
+                <option value="Html5">
+                <option value="Css3">
+                <option value="bootstrap5">
+                <option value="tailwind">
+                <option value="js">
+                <option value="jquery">
+                <option value="react">
+             </datalist>
+
+            <br>
+            <hr>
+            <!-- Tanımlı Listeleri -->
+            <dl>
+                <dt>HTML</dt>
+                <dd>Listeler</dd>
+                <br>
+                <dt>CSS</dt>
+                <dd>Renklendirme</dd>
+            </dl>
+            
+            <br>
+            <hr>
+            <!-- Ordered List (Düzenli Olan Liste)-->
+            <ol>
+                <li>item1</li>     <!--ol>li{item$}*5-->
+                <li>item2</li>
+                <li>item3</li>
+                <li>item4</li>
+                <li>item5</li>
+            </ol>
+
+            <ol start="8" type="i">
+                <li>item1</li>     <!--ol>li{item$}*5-->
+                <li>item2</li>
+                <li>item3</li>
+                <li>item4</li>
+                <li>item5</li>
+            </ol>
+
+            <ol start="58">
+                <li>item1</li>     <!--ol>li{item$}*5-->
+                <li>item2</li>
+                <li>item3</li>
+                <li>item4</li>
+                <li>item5</li>
+            </ol>
+
+            <br>
+            <hr>
+            <!-- Unordered List (Düzenli Olmayan Liste)-->
+            <ul>
+                <li>item1</li>     <!--ul>li{item$}*5-->
+                <li>item2</li>
+                <li>item3</li>
+                <li>item4</li>
+                <li>item5</li>
+            </ul>
+
+            <br>
+            <hr>
             <!-- MAP (https://www.maps.ie/create-google-map/)-->
             <div style="width: 100%"><iframe width="100%" height="600" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=%C4%B0stanbul,%20T%C3%BCrkiye+(My%20Business%20Name)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><a href="https://www.gps.ie/">gps systems</a></iframe></div>
 
